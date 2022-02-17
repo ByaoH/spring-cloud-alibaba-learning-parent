@@ -13,7 +13,7 @@
 
 	<groupId>com.byaoh</groupId>
 	<artifactId>spring-cloud-alibaba-learning-parent</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.21</version>
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
