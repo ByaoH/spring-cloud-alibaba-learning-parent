@@ -159,12 +159,4 @@
 			</testResource>
 		</testResources>
 	</build>
-
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>spring-cloud-alibaba-learning-parent</name>
-			<url>https://maven.pkg.github.com/ByaoH/spring-cloud-alibaba-learning-parent</url>
-		</repository>
-	</distributionManagement>
 </project>
