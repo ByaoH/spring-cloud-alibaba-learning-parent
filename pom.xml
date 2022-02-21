@@ -11,9 +11,9 @@
 	</parent>
 	<packaging>pom</packaging>
 
-	<groupId>com.byaoh</groupId>
+	<groupId>com.byaoh.cloud</groupId>
 	<artifactId>spring-cloud-alibaba-learning-parent</artifactId>
-	<version>0.0.22</version>
+	<version>0.0.23</version>
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
