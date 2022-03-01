@@ -13,18 +13,19 @@
 
 	<groupId>com.byaoh.cloud</groupId>
 	<artifactId>spring-cloud-alibaba-learning-parent</artifactId>
-	<version>0.0.23</version>
+	<version>0.0.24</version>
 	<properties>
 		<maven.compiler.source>8</maven.compiler.source>
 		<maven.compiler.target>8</maven.compiler.target>
 		<spring-cloud-alibaba-verson>2021.1</spring-cloud-alibaba-verson>
 		<spring-cloud-verson>2020.0.1</spring-cloud-verson>
-		<huttol-version>5.7.16</huttol-version>
+		<huttol-bom-version>5.7.16</huttol-bom-version>
 		<org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
 		<pagehelp-version>5.3.0</pagehelp-version>
 		<mybatis-plus-version>3.4.3.4</mybatis-plus-version>
 		<file-version>0.0.1</file-version>
 		<common-version>0.0.1</common-version>
+		<oauth2-version>2.5.1.RELEASE</oauth2-version>
 	</properties>
 	<dependencyManagement>
 		<dependencies>
@@ -52,7 +53,7 @@
 			<dependency>
 				<groupId>cn.hutool</groupId>
 				<artifactId>hutool-bom</artifactId>
-				<version>${huttol-version}</version>
+				<version>${huttol-bom-version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -93,6 +94,12 @@
 				<groupId>com.byaoh.cloud</groupId>
 				<artifactId>spring-cloud-alibaba-learning-common</artifactId>
 				<version>${common-version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.security.oauth</groupId>
+				<artifactId>spring-security-oauth2</artifactId>
+				<version>${oauth2-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
