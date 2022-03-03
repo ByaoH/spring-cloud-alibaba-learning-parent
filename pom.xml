@@ -15,8 +15,8 @@
 	<artifactId>spring-cloud-alibaba-learning-parent</artifactId>
 	<version>0.0.27</version>
 	<properties>
-		<maven.compiler.source>17</maven.compiler.source>
-		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+		<maven.compiler.target>11</maven.compiler.target>
 		<spring-cloud-alibaba-verson>2021.1</spring-cloud-alibaba-verson>
 		<spring-cloud-verson>2020.0.1</spring-cloud-verson>
 		<huttol-bom-version>5.7.16</huttol-bom-version>
