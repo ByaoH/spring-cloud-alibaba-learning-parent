@@ -13,7 +13,7 @@
 
 	<groupId>com.byaoh.cloud</groupId>
 	<artifactId>spring-cloud-alibaba-learning-parent</artifactId>
-	<version>0.0.31</version>
+	<version>0.0.32</version>
 	<properties>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
@@ -90,10 +90,14 @@
 				<artifactId>mybatis-plus-annotation</artifactId>
 				<version>${mybatis-plus-version}</version>
 			</dependency>
-
 			<dependency>
 				<groupId>com.byaoh.cloud</groupId>
-				<artifactId>spring-cloud-alibaba-learning-common</artifactId>
+				<artifactId>spring-cloud-alibaba-learning-framework</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.byaoh.cloud</groupId>
+				<artifactId>spring-cloud-alibaba-learning-starter</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 		</dependencies>
